@@ -15,7 +15,7 @@ app.use("/notify", notificationRoutes);
 
 // Health check
 app.get("/health", (_req, res) =>
-  res.json({ status: "ok", service: "notification-service" })
+  res.json({ status: "ok", service: "notificationservice" })
 );
 
 app.listen(PORT, () => {
